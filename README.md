@@ -23,45 +23,6 @@ by the year they played in.
 - As a user, I want to be able to save my attempt to file.
 - As a user, I want to be able to load a list of saved previous attempts from file.
 
-
-## Phase 4: Task 2
-1. Thu Nov 25 17:29:52 PST 2021
-TestPlayer has won this round and will be moved to next game.
-
-2. Thu Nov 25 17:29:54 PST 2021
-TestPlayer has won this round and will be moved to next game.
-
-3. Thu Nov 25 17:29:58 PST 2021
-TestPlayer has been added to the previous players list
-
-4. Thu Nov 25 17:30:09 PST 2021
-TestPlayer2 has been eliminated.
-
-5. Thu Nov 25 17:30:10 PST 2021
-TestPlayer2 has been added to the previous players list
-
-6. Thu Nov 25 17:30:14 PST 2021
-Sam has been added to the previous players list
-
-7. Thu Nov 25 17:30:14 PST 2021
-gisany has been added to the previous players list
-
-8. Thu Nov 25 17:30:14 PST 2021
-sam has been added to the previous players list
-
-For clarification (because I only logged events related to X and Y, and only a few game related events):
-
-From line 1 to 3, PlayerTest was created and played game and won. From there, they were added
-to the previous players list. (Did not save player attempt)
-
-From line 4 - 5, PlayerTest2 was created and played game but did not win any games. From there, they 
-were added to the previous players list. (Did not save player attempt)
-
-From line 6 - 8, loaded previous players list from file. (notice none of the player tests were added because
-we did not save their attempt)
-
-## Phase 4: Task 3
-
 I am proud of how I designed the panels because I have two abstract classes that handles their specified panel
 functionality. For example, the CoinTossPanel and RockPaperScissorsPanel that handles the GUI of the game extends 
 the abstract class, GamePanel. I did this because CoinTossPanel and RockPaperScissorsPanel had a lot of duplicate code
