@@ -1,0 +1,20 @@
+{"players": [
+    {
+        "score": 2,
+        "name": "Sam",
+        "participation year": 2020,
+        "status": false
+    },
+    {
+        "score": 2,
+        "name": "gisany",
+        "participation year": 2021,
+        "status": true
+    },
+    {
+        "score": 0,
+        "name": "sam",
+        "participation year": 2020,
+        "status": false
+    }
+]}

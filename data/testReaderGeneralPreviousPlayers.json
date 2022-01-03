@@ -1,0 +1,16 @@
+{
+  "players": [
+    {
+      "score": 0,
+      "name": "Player 1",
+      "participation year": 2015,
+      "status": false
+    },
+    {
+      "score": 3,
+      "name": "Player 2",
+      "participation year": 2016,
+      "status": true
+    }
+  ]
+}
