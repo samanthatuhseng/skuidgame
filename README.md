@@ -24,21 +24,21 @@ by the year they played in.
 - As a user, I want to be able to load a list of saved previous attempts from file.
 
 I am proud of how I designed the panels because I have two abstract classes that handles their specified panel
-functionality. For example, the CoinTossPanel and RockPaperScissorsPanel that handles the GUI of the game extends 
+functionality. For example, the CoinTossPanel and RockPaperScissorsPanel that handles the GUI of the game extends and override
 the abstract class, GamePanel. I did this because CoinTossPanel and RockPaperScissorsPanel had a lot of duplicate code
 and are very similar. So, if I wanted to add another game that have similar functionality of being based on chance 
-(such as Guess The Number), I can easily create a new game panel and extend GamePanel class.
+(such as Guess The Number), I can easily create a new game panel inherits the GamePanel class.
 
 However, if I had more time, I would create a model class of the games. Again, with the same design structure, but 
 it would handle the functionality of the game, while the panel classes will handle the GUI of their game. This way,
 the panels only does the work of one class which is the GUI. Currently, the GamePanel handles methods such as comparing
 player result with computer randomly generated answer, keeping track of game status (whether or not player wins that 
-specific game or not), etc., which can probably be handled in a Game class that would be in model package.
+specific game or not), etc., which can probably be handled in a Game class.
 
 Additionally, if I had more time to work on the project, I would split the SkuidGameGUI into two classes because it 
 currently handles a lot of functionality. I would change it in a way so that it only handles the switching of 
 panels and create a new class that handles all the functionality of save, load, initiation player, etc. 
-For example, it would be called SkuidGame and it would be in the model package. It would have all the functionalities 
+For example, the class would be called SkuidGame and it would have all the functionalities 
 of the Skuid Game application, while the SkuidGameGUI would handle all the GUI functionality instead of all the 
 functionality of the game. 
 
